@@ -1,5 +1,4 @@
 from pywebio.input import *
-from pywebio.output import *
 
 input("What's Your Name?")
 select("Select food", ['Orange', 'Apple'])
