@@ -5,6 +5,7 @@ output.put_markdown("## Hi </fooders>")
 output.put_markdown("<p>I am Jayant</p>")
 
 output.put_table([
+    ["Name", "code"],
     ['Food', 11],
     ['Water', 12],
     ['Sunlight', 13]
@@ -34,3 +35,4 @@ else:
 output.put_image(image, height="100", width="100")
 
 output.put_file("You can download the food here", b"hello")
+sleep(5)
